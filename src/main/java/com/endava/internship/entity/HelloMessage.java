@@ -1,4 +1,4 @@
-package com.endava.internship;
+package com.endava.internship.entity;
 
 public class HelloMessage
 {

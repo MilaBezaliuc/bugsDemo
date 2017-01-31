@@ -1,5 +1,7 @@
-package com.endava.internship;
+package com.endava.internship.controllers;
 
+import com.endava.internship.storages.DBStorage;
+import com.endava.internship.entity.HelloMessage;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -7,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import static com.endava.internship.Storage.*;
+import static com.endava.internship.storages.Storage.*;
 
 @Controller
 public class WelcomeController {

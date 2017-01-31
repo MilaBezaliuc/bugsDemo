@@ -1,4 +1,4 @@
-package com.endava.internship;
+package com.endava.internship.storages;
 
 import java.util.Set;
 import java.util.stream.Collectors;

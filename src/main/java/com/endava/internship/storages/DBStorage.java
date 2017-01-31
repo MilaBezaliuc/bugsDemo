@@ -1,4 +1,4 @@
-package com.endava.internship;
+package com.endava.internship.storages;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
